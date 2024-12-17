@@ -97,31 +97,32 @@ Track outstanding balances
 
 Project Structure
 
+project/
 ├── frontend/
-|    |-- public
-|     |     | -- favicon.ico
-|     |     | -- index.html
-|     |     | -- manifest.json
-|     |     | -- robots.txt
-|     |
-|     | -- src
-|           | -- App.css
-|           | -- App.js
-|           | -- Apptest.js
-|           | -- Failed.js
-|           | -- index.css
-|           | -- index.js
-|           | -- LoginSignup.js
-|           | -- logo.svg
-|           | -- reportWebVitals.js
-|           | -- setupTests.js
-|           | -- success.js
-|           | -- TransactionDetails.js
-|           | -- UserDetails.js
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   └── src/
+│       ├── App.css
+│       ├── App.js
+│       ├── Apptest.js
+│       ├── Failed.js
+│       ├── index.css
+│       ├── index.js
+│       ├── LoginSignup.js
+│       ├── logo.svg
+│       ├── reportWebVitals.js
+│       ├── setupTests.js
+│       ├── success.js
+│       ├── TransactionDetails.js
+│       └── UserDetails.js
 └── backend/
-    | -- app.py
-    | -- create_db.py
-    | -- test_db.py
+    ├── app.py
+    ├── create_db.py
+    └── test_db.py
+
 
 
 Acknowledgments
