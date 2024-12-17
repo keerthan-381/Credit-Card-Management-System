@@ -2,6 +2,9 @@
 
 A web-based application for managing credit cards and transactions built with React.js and Node.js.
 
+![image](https://github.com/user-attachments/assets/11d199ad-58ac-442f-b34c-2db2648080f8)
+
+
 ## Features
 
 - User authentication and profile management
