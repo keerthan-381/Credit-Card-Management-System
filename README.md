@@ -6,11 +6,8 @@ A web-based application for managing credit cards and transactions built with Re
 ## Features
 
 - User authentication and profile management
-- Credit card management (add, view, and track cards)
+- Credit card management (add and view)
 - View credit card details and transaction history
-- Real-time outstanding balance tracking
-- Secure card information storage
-- Responsive user interface
 
 ## Tech Stack
 
@@ -22,7 +19,6 @@ A web-based application for managing credit cards and transactions built with Re
 
 ### Backend
 - Node.js
-- Express.js
 - MySQL Database
 
 ## Getting Started
@@ -102,18 +98,30 @@ Track outstanding balances
 Project Structure
 
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   ├── UserDetails.js
-│   │   └── ...
-│   ├── package.json
-│   └── README.md
+|    |-- public
+|     |     | -- favicon.ico
+|     |     | -- index.html
+|     |     | -- manifest.json
+|     |     | -- robots.txt
+|     |
+|     | -- src
+|           | -- App.css
+|           | -- App.js
+|           | -- Apptest.js
+|           | -- Failed.js
+|           | -- index.css
+|           | -- index.js
+|           | -- LoginSignup.js
+|           | -- logo.svg
+|           | -- reportWebVitals.js
+|           | -- setupTests.js
+|           | -- success.js
+|           | -- TransactionDetails.js
+|           | -- UserDetails.js
 └── backend/
-    ├── routes/
-    ├── models/
-    ├── server.js
-    └── package.json
+    | -- app.py
+    | -- create_db.py
+    | -- test_db.py
 
 
 Acknowledgments
@@ -139,5 +147,4 @@ You can customize this template further based on your specific project needs, su
 - Including testing instructions
 - Adding deployment instructions
 
-Would you like me to expand on any particular section?
 
