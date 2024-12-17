@@ -33,18 +33,18 @@ A web-based application for managing credit cards and transactions built with Re
 1. Clone the repository:
 ```bash
 git clone git@github.com:keerthan-381/Credit-Card-Management-System.git
-
+```
 Install Frontend Dependencies:
-
+```
 cd frontend
 npm install
-
+```
 
 Install Backend Dependencies:
-
+```
 cd backend
 npm install
-
+```
 
 Configuration
 Frontend Configuration:
@@ -52,35 +52,35 @@ Frontend Configuration:
 Create a .env file in the frontend directory
 
 Add necessary environment variables:
-
+```
 REACT_APP_API_URL=http://localhost:5000
-
+```
 
 Backend Configuration:
 
 Create a .env file in the backend directory
 
 Configure your database credentials:
-
+```
 DB_HOST=localhost
 DB_USER=your_username
 DB_PASSWORD=your_password
 DB_NAME=your_database_name
 PORT=5000
-
+```
 
 Running the Application
 Start the Backend Server:
-
+```
 cd backend
 npm start
-
+```
 
 Start the Frontend Development Server:
-
+```
 cd frontend
 npm start
-
+```
 
 The application will be available at http://localhost:3000
 
@@ -96,7 +96,7 @@ View transaction history for each card
 Track outstanding balances
 
 Project Structure
-
+```
 project/
 ├── frontend/
 │   ├── public/
@@ -122,7 +122,7 @@ project/
     ├── app.py
     ├── create_db.py
     └── test_db.py
-
+```
 
 
 Acknowledgments
